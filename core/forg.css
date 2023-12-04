@@ -1,0 +1,94 @@
+body {
+    min-height: 100vh;
+    background: url("https://media.istockphoto.com/id/1620321704/photo/aromatic-coffee-roasted-grains-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=zwpdAn_L9Fmp8pSdp8DIt9UhbvSkNao1MxwtUfrn058=") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: scroll;
+
+}
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+.login-box {
+    width: 400px;
+    margin: 7% auto; /* Adjust the margin to center the box */
+}
+
+.login-box-body {
+    background: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    margin-top: -110px;
+    background-image: url('https://media.istockphoto.com/id/1620321704/photo/aromatic-coffee-roasted-grains-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=zwpdAn_L9Fmp8pSdp8DIt9UhbvSkNao1MxwtUfrn058='); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.login-box-msg {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #fff; /* Border color */
+    border-radius: 3px;
+    color: #333; /* Input text color */
+}
+
+.form-control:focus {
+    border-color: #ccc; /* Border color on focus */
+}
+
+.btn-primary {
+    background-color: #8B4513; /* Button background color */
+    border-color: #8B4513; /* Button border color */
+    color: #fff; /* Button text color */
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #54351A; /* Button background color on hover/focus */
+    border-color: #54351A; /* Button border color on hover/focus */
+}
+
+/* Target the anchor element with href="login.php" */
+a[href="login.php"] {
+    color: #fff; /* White text color */
+}
+
+/* Target the anchor element with href="index.php" */
+a[href="index.php"] {
+    color: #fff; /* White text color */
+}
+
+
+.callout {
+    padding: 15px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+
+    /* Add color styles and font size for callout */
+    color: #ffffff; /* Text color */
+    font-size: 12px; /* Adjust font size as needed */
+}
+
+.callout-danger {
+    color: #d43f3a; /* Adjust text color for danger callout */
+}
+
+.callout-success {
+    color: #4cae4c; /* Adjust text color for success callout */
+}
+
+
+

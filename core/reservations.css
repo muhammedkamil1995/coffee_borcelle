@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #9baf6d;
+    --default-trans: all 0.3s ease;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: url("https://media.istockphoto.com/id/1048093984/photo/interior-design-of-a-coffee-shop-cafe-3d-rendering.jpg?s=612x612&w=0&k=20&c=LiVb3yySv4vhG_OhlFyBjlD0JfkM0Nx1szch87uRVSc=") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+  }
+  
+  /* Reset */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* General Style */
+  .container {
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Primary Style */
+  .reserve-container {
+    margin-top: -140px;
+  }
+  
+  .reserve-header {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center; /* Center the text in the header */
+  }
+  
+  .reserve-header h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 3em;
+    color: #FFF;
+  }
+  
+  #reserve-form .row {
+    justify-content: space-between;
+  }
+  
+  #reserve-form .form-group {
+    flex: 0 0 calc(28% - 20px);
+    max-width: calc(28% - 20px);
+    margin-bottom: 50px;
+  }
+  
+  #reserve-form .form-group label {
+    display: block;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #reserve-form .form-group.submit-container button {
+    padding: 10px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #8B4513;
+    cursor: pointer;
+    transition: var(--default-trans);
+  }
+  
+  #reserve-form .form-group.submit-container button:hover {
+    color: #8B4513;
+    background-color: #fff;
+  }
+  
+  #reserve-form .form-group.submit-container {
+    text-align: center;
+    width: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+  #reserve-form .form-control {
+    width: 100%;
+    border: 1px solid #FFF;
+    background-color: #8B4513;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    outline: none;
+  }
+  
+  #reserve-form .form-control::placeholder {
+    color: #FFF;
+  }
+  
+  /* Additional styling for smaller screens */
+  @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    #reserve-form .form-group {
+      flex: 0 0 calc(48% - 20px);
+      max-width: calc(48% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #reserve-form .form-group {
+      flex: 100%;
+      max-width: 100%;
+    }
+  
+    #reserve-form .form-group.submit-container button {
+      width: 100%;
+    }
+  }
+  

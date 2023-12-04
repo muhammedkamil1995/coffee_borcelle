@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url("https://media.istockphoto.com/id/1620321704/photo/aromatic-coffee-roasted-grains-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=zwpdAn_L9Fmp8pSdp8DIt9UhbvSkNao1MxwtUfrn058=") no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: scroll;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+h1 {
+  color: whitesmoke;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 46px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: -70px;
+}
+
+p {
+  max-width: 700px;
+  min-height: 200px;
+  padding: 0;
+  color: whitesmoke;
+  font-family: 'OpenSans', sans-serif; /* Make sure 'OpenSans' is available in your project */
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 0 auto; /* Center the text */
+}
+
+.square {
+  height: 60px;
+  width: 60px;
+  border: 1px dashed white;
+  margin: 0 55px 0 0; /* Adjusted margin */
+  background-color: #8B4513(255, 255, 255, 0.2);
+  display: inline-block;
+  transform: rotateZ(44deg);
+  background-color: #8B4513;
+}
+
+.square:hover {
+  background-color: #8B4513(27, 182, 239, 0.2);
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.square .icons {
+  position: absolute;
+  transform: rotateZ(-44deg);
+  margin: 20px 0 0px 21px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-dribbble,
+.fa-youtube,
+.fa-dribbble {
+  width: 22px; /* Adjusted width */
+  height: 22px;
+  color: white;
+  font-family: 'FontAwesome', sans-serif; /* Make sure 'FontAwesome' is available in your project */
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  
+}
+
+.square:hover .fa-facebook {
+  color: rgba(59, 89, 152, 1);
+}
+
+.square:hover .fa-twitter {
+  color: rgba(27, 182, 239, 1);
+}
+
+.square:hover .fa-dribbble {
+  color: rgba(199, 59, 111, 1);
+}
+
+.square:hover .fa-youtube {
+  color: rgba(229, 45, 39, 1);
+}
+
+.logo {
+  margin: 1em;
+  position: fixed;
+  bottom: 0; /* Adjusted position */
+  z-index: 99999999999;
+  right: 0;
+}
+
+
+
+.pen {
+  fill: black;
+  animation: rotateInDownLeft 3s forwards;
+}
+
+.all {
+  animation: rotateOut 3s forwards;
+}
+
+@keyframes rotateInDownLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 0, 0deg);
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: translateX(850px) translateY(-83px) rotate3d(0, 0, 1, -60deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateOut {
+  from {
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 1;
+  }
+}

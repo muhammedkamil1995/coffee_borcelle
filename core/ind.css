@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+/* RESET */
+* {
+  font-family: 'Overpass Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* GLOBAL */
+p {
+  color: #fff;
+  line-height: 23px;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+.btn--opacity {
+  animation: opacity 3s;
+}
+
+/* SECT */
+.sect {
+  padding: 130px 0;
+}
+
+.sect--brown {
+  background-color: #1d140b;
+}
+
+.sect--grey {
+  background-color: #ebebeb;
+}
+
+.sect--no-bottom {
+  padding-bottom: 0;
+}
+
+.sect--white-text {
+  color: #fff;
+}
+
+.col--inbl {
+  display: inline-block;
+  float: none;
+}
+
+.row--center {
+  text-align: center;
+}
+
+.row--small {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row--margin {
+  margin-top: 65px;
+}
+
+/* ANIMATION */
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes banner-in {
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+
+ /* Add or override styles here as needed */
+   /* Apply a box-sizing border-box to all elements for more consistent sizing */
+   * {
+    box-sizing: border-box;
+}
+
+   body {
+    min-height: 100vh;
+    background: url("https://media.istockphoto.com/id/955804280/photo/closeup-of-coffee-beans-with-focus-on-one.jpg?s=612x612&w=0&k=20&c=DB4U0iKh2k29Uf96WiE_hLupUQgLUHSpjS-4fWwEkbk=") no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: scroll;
+    color: #ffff;
+    padding: 0;
+}
+
+
+/* Start Header */
+
+
+header {
+   
+    width: 100%;
+    margin: auto;
+    /* padding: 0; */
+    
+    
+   
+}
+
+.head {
+    float: left;
+    /* margin-left: 100px; */
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.head h2:hover {
+    color: #8B4513;
+}
+
+.head h2::first-letter {
+    font-size: 2.5rem;
+    
+}
+
+
+/* Start Nav */
+
+nav h2 {
+  flex: 1;
+  font-family: 'Overpass Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  align-self: flex-start;
+  margin-left: -90px;
+  margin-top: -30px;
+      
+
+    }
+
+nav {
+    margin: auto;
+    float: right;
+    margin-top: 20px;
+    
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 0rem;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+nav li a:hover {
+    color: #8B4513;
+    
+}
+
+;
+nav li #active {
+    color: #8B4513;
+}
+
+
+/* container */
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+    scroll-behavior: auto;
+    margin-top: -10px;
+    
+}
+
+
+
+.banner__text {
+    
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 18px;
+  animation: opacity 3s;
+  
+}
+
+/* TYPE OF COFFEE */
+.sect--type {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-color: #fff;
+}
+
+.sect__title {
+  margin-top: 0;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.sect__subtitle {
+  margin-bottom: 0;
+}
+
+.coffee {
+  padding: 0 25px;
+}
+
+
+.coffee__img {
+  width: 90%;
+}
+
+.coffee__descr {
+  margin: 0;
+  line-height: 23px;
+}
+
+/* STORY */
+.story-img {
+  height: 0;
+  padding-bottom: 52%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-color: #1d140b;
+}
+
+/* HALF SECTION */
+.half-sect__second {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.half {
+  width: 50%;
+  display: table-cell;
+  background-color: #fff;
+}
+
+.half-sect__first {
+  padding: 150px;
+  background-color: #fff;
+}
+
+.description__p {
+  margin-bottom: 40px;
+}
+
+.description__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* GREAT COFFEE */
+.sect--great {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #fff;
+}
+
+/* BEST COFFEE SHOP */
+.sect--best {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 160px 0;
+  background-color: #000;
+}
+
+.best__title {
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #daa37f;
+}
+
+.best__img {
+  width: 50px;
+}
+
+.best--margin {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.best--bottom {
+  margin-bottom: 40px;
+}
+
+/* THREE IMAGES */
+.three-img__img {
+  height: 0;
+  padding-bottom: 33.3%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.three-img {
+  display: table;
+  height: 33.3%;
+  width: 100%;
+}
+
+
+
+
+/* BLOG IMAGES */
+.last-articles {
+  margin-top: 50px;
+}
+
+.article-pre__img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 80%;
+}
+
+.article-pre {
+  background-color: #fff;
+}
+
+.article-pre__title {
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.article-pre__date {
+  color: #fff;
+  line-height: 23px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+}
+
+.article-pre__info {
+  padding: 25px 20px 20px 20px;
+}
+
+.article-pre__ex {
+  margin: 0;
+  line-height: 22px;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+  .sect {
+    padding: 100px 0;
+  }
+  .row--margin {
+    margin-top: 55px;
+  }
+  .banner__title {
+    font-size: 54px;
+  }
+  .half-sect__first {
+    padding: 100px;
+  }
+  .three-img__img {
+    padding-bottom: 40%;
+  }
+  .sect--no-bottom {
+    padding-bottom: 0 !important;
+  }
+  
+
+@media screen and (max-width: 991px) {
+  .sect {
+    padding: 80px 0;
+  }
+  .banner__title {
+    font-size: 50px;
+  }
+  .row--margin {
+    margin-top: 45px;
+  }
+  .coffee {
+    padding: 0 15px;
+  }
+  .coffe__img {
+    width: 100%;
+  }
+  .half-sect__first {
+    padding: 80px;
+  }
+  .last-articles {
+    margin-bottom: 30px;
+  }
+
+}
+}

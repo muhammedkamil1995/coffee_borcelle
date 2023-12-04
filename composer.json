@@ -1,0 +1,6 @@
+{
+    "require": {
+        "scssphp/scssphp": "^1.11",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
